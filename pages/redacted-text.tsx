@@ -11,3 +11,5 @@ export function RedactedText({ children }: RedactedTextProps) {
   )
 }
 
+export default RedactedText
+
