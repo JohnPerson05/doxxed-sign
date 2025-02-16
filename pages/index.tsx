@@ -16,20 +16,17 @@ export default function ClassifiedDocument() {
         <div className="relative grid md:grid-cols-2 gap-8">
           {/* Left side - Photo */}
           <div className="space-y-4">
-            <div className="bg-white p-4 rotate-[-2deg] shadow-lg">
-              <div className="bg-neutral-900 bg-[url('/megan.jpg')] aspect-[3/4] relative flex items-center justify-center">
-              <div className="mt-8  flex items-center justify-center text-2xl text-neutral-200">
-              <div className="grid mt-8 grid-cols-6 gap-2 flex items-center justify-center">
-                <div className="col-span-4 col-start-2 "></div>
-                <div className="col-span-4 col-start-2 "></div>
-                <div className="col-span-4 col-start-2 "></div>
-                <div className="col-span-4 col-start-2 flex items-center justify-center mt-8">DOXXED </div>
-                <div className="col-span-4 col-start-2 flex items-center justify-center">MEGAN WANG </div>
-                <div className="col-span-4 col-start-2 flex items-center justify-center">AKA</div>
-                <div className="col-span-4 col-start-2 flex items-center justify-center">SIGN INTERN</div>
-             </div>
-              </div> 
-              
+            <div className="bg-white p-4 rotate-[-2deg] shadow-lg bottom-4" >
+              <div className="bg-neutral-900 bg-[url('/megan.jpg')] aspect-[3/4] relative flex items-end justify-center">
+              <div className={courier.className}>
+                <div className="text-center font-bold text-neutral-800 mb-8">
+                    MEGAN WANG 
+                    <br />
+                    "AKA"
+                    <br />
+                    SIGN INTERN
+              </div>
+              </div>
               </div>
             </div>
             <div className="h-6 w-32 mx-auto bg-neutral-800/20 backdrop-blur-sm" />
