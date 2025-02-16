@@ -22,7 +22,7 @@ export default function ClassifiedDocument() {
                 <div className="text-center font-bold text-neutral-800 mb-8">
                     MEGAN WANG 
                     <br />
-                    "AKA"
+                    &quot;AKA&quot;
                     <br />
                     SIGN INTERN
               </div>
