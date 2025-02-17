@@ -16,7 +16,7 @@ export default function CollagePage() {
     <div className="min-h-screen bg-neutral-900 p-4 md:p-8 flex items-center justify-center">
       <div className="max-w-4xl w-full bg-[#C4A484] p-6 md:p-12 rounded-lg shadow-2xl relative">
         {/* Folder texture overlay */}
-        <div className="absolute inset-0 bg-[url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/classs.jpg-Pwqy7OYjAE9IKm3ukHAuQL7b4zf8PK.jpeg')] opacity-30 rounded-lg" />
+        <div className="absolute inset-0 bg-[url('/megan.jpg)] opacity-30 rounded-lg" />
 
         <div className="relative space-y-8">
           <div className="bg-[#f4e4bc] p-6 shadow-lg relative">
@@ -35,7 +35,7 @@ export default function CollagePage() {
               />
               <p className="text-sm text-neutral-800">
                 This collage contains various pieces of evidence related to the classified operation. The images have
-                been carefully selected and arranged to provide a comprehensive overview of the mission's key elements
+                been carefully selected and arranged to provide a comprehensive overview of the mission&apos;s key elements
                 and findings. Further details are available in the accompanying report.
               </p>
             </div>
