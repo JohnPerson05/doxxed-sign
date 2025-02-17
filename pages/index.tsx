@@ -109,7 +109,7 @@ export default function ClassifiedDocument() {
                 />
                 <p className="text-sm text-neutral-800">
                   This collage contains various pieces of evidence related to the classified operation. The images have
-                  been carefully selected and arranged to provide a comprehensive overview of the mission's key elements
+                  been carefully selected and arranged to provide a comprehensive overview of the mission&apos;s key elements
                   and findings. Further details are available in the accompanying report.
                 </p>
               </div>
