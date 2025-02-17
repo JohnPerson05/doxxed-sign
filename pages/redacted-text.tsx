@@ -1,4 +1,5 @@
 import type React from "react"
+
 interface RedactedTextProps {
   children: React.ReactNode
 }
