@@ -27,7 +27,7 @@ export default function CollagePage() {
             <div className={courier.className}>
               <h2 className="text-2xl font-bold mb-4 text-center">Evidence Collage</h2>
               <Image
-                src="/placeholder.svg"
+                src="/collage.jpg"
                 alt="Classified Evidence Collage"
                 width={600}
                 height={400}
